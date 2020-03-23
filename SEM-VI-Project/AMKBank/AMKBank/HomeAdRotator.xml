@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+   <Ad>
+      <ImageUrl>Images/logo.jpg</ImageUrl>
+      <Impressions>20</Impressions>
+      <Keyword>logo</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Images/netbanking.jpg</ImageUrl>
+      <Impressions>20</Impressions>
+      <Keyword>netbanking</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Images/easytouse.jpg</ImageUrl>
+      <Impressions>20</Impressions>
+      <Keyword>easy to use</Keyword>
+   </Ad>
+
+   <Ad>
+      <ImageUrl>Images/safeguard.jpg</ImageUrl>
+      <Impressions>20</Impressions>
+      <Keyword>safeguard</Keyword>
+   </Ad>
+</Advertisements>

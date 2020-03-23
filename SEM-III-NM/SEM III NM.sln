@@ -1,0 +1,121 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 Bisection Method", "01 Bisection Method\Bisection Method.vcxproj", "{CA43E091-AFAC-4E55-8F53-A3FDB23B346E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 Secant Method", "02 Secant Method\Secant Method.vcxproj", "{40B3DD81-3845-4ECC-8F9F-0C7B8A7BB0D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 Newton Raphson Method", "03 Newton Raphson Method\Newton Raphson Method.vcxproj", "{647316D2-678A-4794-A6B6-576EE6FEB344}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 Gauss Elimination Method", "04 Gauss Elimination Method\Gauss Elimination Method.vcxproj", "{4CB90DE8-1412-4AF1-A745-0E8B7FD85F48}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 Gauss Seidel Method", "05 Gauss Seidel Method\Gauss Seidel Method.vcxproj", "{0CF615EE-651F-4AF1-810D-2274D815FCF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 Simpson Rules", "06 Simpson Rules\Simpson Rules.vcxproj", "{E509EABB-2D27-49D5-986B-148CF1209E65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 Trapezoidal Rule", "07 Trapezoidal Rule\Trapezoidal Rule.vcxproj", "{B834524F-AF05-42CF-8189-682D17E7C70F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08 Power Method", "08 Power Method\Power Method.vcxproj", "{F8C400B2-7949-4791-9EC9-0FFD75DE47A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 Newton Raphson Non Linear Method", "09 Newton Raphson Non Linear Method\Newton Raphson Non Linear Method.vcxproj", "{8D05E951-4FD8-4D7C-920A-B0EE6C4A3804}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 Jacobi Method", "10 Jacobi Method\Jacobi Method.vcxproj", "{C0314B2D-0FC4-46FE-BABC-3302C00C0CB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11 Rangekutta 4th Order Method", "11 Rangekutta 4th Order Method\Rangekutta 4th Order Method.vcxproj", "{B35CFFD4-44A1-4B08-9E59-88E96BEC94B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA43E091-AFAC-4E55-8F53-A3FDB23B346E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA43E091-AFAC-4E55-8F53-A3FDB23B346E}.Debug|Win32.Build.0 = Debug|Win32
+		{CA43E091-AFAC-4E55-8F53-A3FDB23B346E}.Release|Win32.ActiveCfg = Release|Win32
+		{CA43E091-AFAC-4E55-8F53-A3FDB23B346E}.Release|Win32.Build.0 = Release|Win32
+		{40B3DD81-3845-4ECC-8F9F-0C7B8A7BB0D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40B3DD81-3845-4ECC-8F9F-0C7B8A7BB0D5}.Debug|Win32.Build.0 = Debug|Win32
+		{40B3DD81-3845-4ECC-8F9F-0C7B8A7BB0D5}.Release|Win32.ActiveCfg = Release|Win32
+		{40B3DD81-3845-4ECC-8F9F-0C7B8A7BB0D5}.Release|Win32.Build.0 = Release|Win32
+		{647316D2-678A-4794-A6B6-576EE6FEB344}.Debug|Win32.ActiveCfg = Debug|Win32
+		{647316D2-678A-4794-A6B6-576EE6FEB344}.Debug|Win32.Build.0 = Debug|Win32
+		{647316D2-678A-4794-A6B6-576EE6FEB344}.Release|Win32.ActiveCfg = Release|Win32
+		{647316D2-678A-4794-A6B6-576EE6FEB344}.Release|Win32.Build.0 = Release|Win32
+		{4CB90DE8-1412-4AF1-A745-0E8B7FD85F48}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CB90DE8-1412-4AF1-A745-0E8B7FD85F48}.Debug|Win32.Build.0 = Debug|Win32
+		{4CB90DE8-1412-4AF1-A745-0E8B7FD85F48}.Release|Win32.ActiveCfg = Release|Win32
+		{4CB90DE8-1412-4AF1-A745-0E8B7FD85F48}.Release|Win32.Build.0 = Release|Win32
+		{0CF615EE-651F-4AF1-810D-2274D815FCF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CF615EE-651F-4AF1-810D-2274D815FCF0}.Debug|Win32.Build.0 = Debug|Win32
+		{0CF615EE-651F-4AF1-810D-2274D815FCF0}.Release|Win32.ActiveCfg = Release|Win32
+		{0CF615EE-651F-4AF1-810D-2274D815FCF0}.Release|Win32.Build.0 = Release|Win32
+		{E509EABB-2D27-49D5-986B-148CF1209E65}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E509EABB-2D27-49D5-986B-148CF1209E65}.Debug|Win32.Build.0 = Debug|Win32
+		{E509EABB-2D27-49D5-986B-148CF1209E65}.Release|Win32.ActiveCfg = Release|Win32
+		{E509EABB-2D27-49D5-986B-148CF1209E65}.Release|Win32.Build.0 = Release|Win32
+		{B834524F-AF05-42CF-8189-682D17E7C70F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B834524F-AF05-42CF-8189-682D17E7C70F}.Debug|Win32.Build.0 = Debug|Win32
+		{B834524F-AF05-42CF-8189-682D17E7C70F}.Release|Win32.ActiveCfg = Release|Win32
+		{B834524F-AF05-42CF-8189-682D17E7C70F}.Release|Win32.Build.0 = Release|Win32
+		{F8C400B2-7949-4791-9EC9-0FFD75DE47A7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8C400B2-7949-4791-9EC9-0FFD75DE47A7}.Debug|Win32.Build.0 = Debug|Win32
+		{F8C400B2-7949-4791-9EC9-0FFD75DE47A7}.Release|Win32.ActiveCfg = Release|Win32
+		{F8C400B2-7949-4791-9EC9-0FFD75DE47A7}.Release|Win32.Build.0 = Release|Win32
+		{8D05E951-4FD8-4D7C-920A-B0EE6C4A3804}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D05E951-4FD8-4D7C-920A-B0EE6C4A3804}.Debug|Win32.Build.0 = Debug|Win32
+		{8D05E951-4FD8-4D7C-920A-B0EE6C4A3804}.Release|Win32.ActiveCfg = Release|Win32
+		{8D05E951-4FD8-4D7C-920A-B0EE6C4A3804}.Release|Win32.Build.0 = Release|Win32
+		{C0314B2D-0FC4-46FE-BABC-3302C00C0CB8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0314B2D-0FC4-46FE-BABC-3302C00C0CB8}.Debug|Win32.Build.0 = Debug|Win32
+		{C0314B2D-0FC4-46FE-BABC-3302C00C0CB8}.Release|Win32.ActiveCfg = Release|Win32
+		{C0314B2D-0FC4-46FE-BABC-3302C00C0CB8}.Release|Win32.Build.0 = Release|Win32
+		{B35CFFD4-44A1-4B08-9E59-88E96BEC94B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B35CFFD4-44A1-4B08-9E59-88E96BEC94B1}.Debug|Win32.Build.0 = Debug|Win32
+		{B35CFFD4-44A1-4B08-9E59-88E96BEC94B1}.Release|Win32.ActiveCfg = Release|Win32
+		{B35CFFD4-44A1-4B08-9E59-88E96BEC94B1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ankitapurv95.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = 01\u0020Bisection\u0020Method\\Bisection\u0020Method.vcxproj
+		SccProjectName1 = 01\u0020Bisection\u0020Method
+		SccLocalPath1 = 01\u0020Bisection\u0020Method
+		SccProjectUniqueName2 = 02\u0020Secant\u0020Method\\Secant\u0020Method.vcxproj
+		SccProjectName2 = 02\u0020Secant\u0020Method
+		SccLocalPath2 = 02\u0020Secant\u0020Method
+		SccProjectUniqueName3 = 03\u0020Newton\u0020Raphson\u0020Method\\Newton\u0020Raphson\u0020Method.vcxproj
+		SccProjectName3 = 03\u0020Newton\u0020Raphson\u0020Method
+		SccLocalPath3 = 03\u0020Newton\u0020Raphson\u0020Method
+		SccProjectUniqueName4 = 04\u0020Gauss\u0020Elimination\u0020Method\\Gauss\u0020Elimination\u0020Method.vcxproj
+		SccProjectName4 = 04\u0020Gauss\u0020Elimination\u0020Method
+		SccLocalPath4 = 04\u0020Gauss\u0020Elimination\u0020Method
+		SccProjectUniqueName5 = 05\u0020Gauss\u0020Seidel\u0020Method\\Gauss\u0020Seidel\u0020Method.vcxproj
+		SccProjectName5 = 05\u0020Gauss\u0020Seidel\u0020Method
+		SccLocalPath5 = 05\u0020Gauss\u0020Seidel\u0020Method
+		SccProjectUniqueName6 = 06\u0020Simpson\u0020Rules\\Simpson\u0020Rules.vcxproj
+		SccProjectName6 = 06\u0020Simpson\u0020Rules
+		SccLocalPath6 = 06\u0020Simpson\u0020Rules
+		SccProjectUniqueName7 = 07\u0020Trapezoidal\u0020Rule\\Trapezoidal\u0020Rule.vcxproj
+		SccProjectName7 = 07\u0020Trapezoidal\u0020Rule
+		SccLocalPath7 = 07\u0020Trapezoidal\u0020Rule
+		SccProjectUniqueName8 = 08\u0020Power\u0020Method\\Power\u0020Method.vcxproj
+		SccProjectName8 = 08\u0020Power\u0020Method
+		SccLocalPath8 = 08\u0020Power\u0020Method
+		SccProjectUniqueName9 = 09\u0020Newton\u0020Raphson\u0020Non\u0020Linear\u0020Method\\Newton\u0020Raphson\u0020Non\u0020Linear\u0020Method.vcxproj
+		SccProjectName9 = 09\u0020Newton\u0020Raphson\u0020Non\u0020Linear\u0020Method
+		SccLocalPath9 = 09\u0020Newton\u0020Raphson\u0020Non\u0020Linear\u0020Method
+		SccProjectUniqueName10 = 10\u0020Jacobi\u0020Method\\Jacobi\u0020Method.vcxproj
+		SccProjectName10 = 10\u0020Jacobi\u0020Method
+		SccLocalPath10 = 10\u0020Jacobi\u0020Method
+		SccProjectUniqueName11 = 11\u0020Rangekutta\u00204th\u0020Order\u0020Method\\Rangekutta\u00204th\u0020Order\u0020Method.vcxproj
+		SccProjectName11 = 11\u0020Rangekutta\u00204th\u0020Order\u0020Method
+		SccLocalPath11 = 11\u0020Rangekutta\u00204th\u0020Order\u0020Method
+	EndGlobalSection
+EndGlobal

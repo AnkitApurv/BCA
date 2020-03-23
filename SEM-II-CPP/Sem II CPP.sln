@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Circle Area Circum", "Circle Area Circum\Circle Area Circum.vcxproj", "{406734A2-4A38-4473-A26F-20DE6385210F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Digital Clock", "Digital Clock\Digital Clock.vcxproj", "{B692C9F8-4A09-4343-A846-45791079F378}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Distance Addition", "Distance Addition\Distance Addition.vcxproj", "{BD7504DA-AAD4-460E-B202-0643C4474529}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Electricity Bill", "Electricity Bill\Electricity Bill.vcxproj", "{3C509118-87A9-4611-B1D5-0CEADECADD2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Debug|x64.ActiveCfg = Debug|x64
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Debug|x64.Build.0 = Debug|x64
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Debug|x86.ActiveCfg = Debug|Win32
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Debug|x86.Build.0 = Debug|Win32
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Release|x64.ActiveCfg = Release|x64
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Release|x64.Build.0 = Release|x64
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Release|x86.ActiveCfg = Release|Win32
+		{406734A2-4A38-4473-A26F-20DE6385210F}.Release|x86.Build.0 = Release|Win32
+		{B692C9F8-4A09-4343-A846-45791079F378}.Debug|x64.ActiveCfg = Debug|x64
+		{B692C9F8-4A09-4343-A846-45791079F378}.Debug|x64.Build.0 = Debug|x64
+		{B692C9F8-4A09-4343-A846-45791079F378}.Debug|x86.ActiveCfg = Debug|Win32
+		{B692C9F8-4A09-4343-A846-45791079F378}.Debug|x86.Build.0 = Debug|Win32
+		{B692C9F8-4A09-4343-A846-45791079F378}.Release|x64.ActiveCfg = Release|x64
+		{B692C9F8-4A09-4343-A846-45791079F378}.Release|x64.Build.0 = Release|x64
+		{B692C9F8-4A09-4343-A846-45791079F378}.Release|x86.ActiveCfg = Release|Win32
+		{B692C9F8-4A09-4343-A846-45791079F378}.Release|x86.Build.0 = Release|Win32
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Debug|x64.ActiveCfg = Debug|x64
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Debug|x64.Build.0 = Debug|x64
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Debug|x86.ActiveCfg = Debug|Win32
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Debug|x86.Build.0 = Debug|Win32
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Release|x64.ActiveCfg = Release|x64
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Release|x64.Build.0 = Release|x64
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Release|x86.ActiveCfg = Release|Win32
+		{BD7504DA-AAD4-460E-B202-0643C4474529}.Release|x86.Build.0 = Release|Win32
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Debug|x64.ActiveCfg = Debug|x64
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Debug|x64.Build.0 = Debug|x64
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Debug|x86.Build.0 = Debug|Win32
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Release|x64.ActiveCfg = Release|x64
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Release|x64.Build.0 = Release|x64
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Release|x86.ActiveCfg = Release|Win32
+		{3C509118-87A9-4611-B1D5-0CEADECADD2C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
