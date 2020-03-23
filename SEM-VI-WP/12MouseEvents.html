@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>12 Mouse Events</title>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" language="javascript">
+    function changeImg()
+    {
+        var img1=document.getElementById("image1").style;
+        var img2=document.getElementById("image2").style;
+        if(img1.visibility=="visible")
+        {
+            img1.visibility="hidden";
+            img2.visibility="visible";
+        }
+        else
+        {
+            img1.visibility="visible";
+            img2.visibility="hidden";
+        }
+    }
+    </script>
+    <style type="text/css">
+        #image1
+        {
+            position: absolute;
+            visibility: visible;
+            width: 512px;
+            height: 512px;
+            vertical-align: middle;
+        }
+        #image2
+        {
+            position: absolute;
+            visibility: hidden;
+            width: 512px;
+            height: 512px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <img src="image1.jpg" id="image1" onmouseover="changeImg();" onmouseout="changeImg();"/>
+        <img src="image2.jpg" id="image2" onmouseover="changeImg();" onmouseout="changeImg();"/>
+    </p>
+</body>
+</html>

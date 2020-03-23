@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Progress Bar</title>
+    <style type="text/css"></style>
+</head>
+<body>
+    <progress id="progress-deter" max="100" value="0" onmouseover="progupdate();" onmouseout="progupdate();">
+        <!--Using both, onmouseover and onmouseout to double speed up the progress bar-->
+        <span style="width: 0%;">Progress: 0%</span>
+    </progress>
+    <progress id="progress-indeter" max="100">
+        <span style="width: ;">Progress: indeterminate</span>
+    </progress>
+</body>
+<script language="javascript">
+function progupdate()
+{
+    //for(i=0; i<=100; i++)
+    //{
+        document.getElementById("progress-deter").value += 1.0;
+    //}
+}
+</script>
+</html>

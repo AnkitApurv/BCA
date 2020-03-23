@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ankit Apurv">
+        <title>01 Element Count</title>
+        <script language="javascript">
+            function elementCount()
+            {
+                var elementcount=document.form1.elements.length;
+                alert("There are "+elementcount+" elements in this HTML form(including the button you clicked)");
+            }
+        </script>
+    </head>
+    <body>
+        <form name="form1" action="">
+            <pre>
+                <label>Name    </lable><input type="text" name="tname1"/><br/>
+                <label>Address </label><input type="textarea" name="addr"/><br/>
+                <label>Gender  </label><br/>
+                <input type="radio" name="gender" value="M"/>  Male<br/>
+                <input type="radio" name="gender" value="F"/>  Female<br/>
+                <input type="button" name="countbutton" value="Count!" onclick="elementCount();"/>
+            </pre>
+        </form>
+    </body>
+</html>

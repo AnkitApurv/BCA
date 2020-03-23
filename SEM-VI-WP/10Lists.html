@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>10 Resturant Menu</title>
+    <script type="text/javascript" src="10Lists.js"></script>
+</head>
+<body>
+    <p style="text-align: center; font-family: sans-serif;">
+        <h2>Resturant Menu</h2>
+        <hr/><br/>
+        <form name="resturant">
+            <table border="2" cellpadding="5">
+                <tr>
+                    <td>Major Dishes:</td>
+                    <td><select name="major" size="3" multiple="multiple" onclick="display();">
+                            <option value="100">Vegitable Pulav </option>
+                            <option value="150">Hydrabadi       </option>
+                            <option value="50">Roti with Veggies</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Starters:</td>
+                    <td><select name="starters" size="3" multiple="multiple" onclick="display();">
+                            <option value="80">Gobhi Manchurian </option>
+                            <option value="40">Veg Clear Soup   </option>
+                            <option value="30">Masala Papad     </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Soft Drinks:</td>
+                    <td><select name="softdrinks" size="3" multiple="multiple" onclick="display();">
+                            <option value="20">Pepsi            </option>
+                            <option value="20">Coke             </option>
+                            <option value="30">Lime Soda        </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="ordereditems" rows="10" cols="40"></textarea></td>
+                </tr>
+            </table>
+            <br/>
+            <table>
+                <tr>
+                    <td><input type="button" name="total" value="Bill!" onclick="calculate();"/></td>
+                    <td><input type="reset" name="clear" value="Clear"/></td>
+                </tr>
+            </table>
+        </form>
+    </p>
+</body>
+</html>

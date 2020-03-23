@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ankit Apurv">
+    <title>03 Calculator</title>
+    <style>
+        body{font-family: sans-serif;}
+    </style>
+    <script type="text/javascript" src="03Calc.js">
+    </script>
+    <body>
+        <center>
+            <h2>Arithmetic Calculations</h2>
+        <br/><br/>
+        <form name="mathForm">
+            <table border="1" cellpadding="5" cellspacing="5">
+                <tr>
+                    <th>Enter first Operand:</th>
+                    <th>Select Operation:</th>
+                    <th>Enter second Operand:</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="op1"/></td>
+                    <td>
+                        <select name="operator">
+                            <option name="sum" value="+">+</option>
+                            <option name="diff" value="-">-</option>
+                            <option name="prod" value="*">*</option>
+                            <option name="div" value="/">/</option>
+                            <option name="mod" value="%">%</option>
+                            <option name="exp" value="exp">exp</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="op2"/></td>
+                    <td><input type="text" name="result" readonly="readonly"/></td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <input type="button" name="calresult" value="Calculate" onclick="calculate();"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

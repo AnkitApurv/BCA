@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ankit Apurv">
+    <script type="text/javascript" src="04Animations.js"></script>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+        #layer1 {
+            background-color: red;
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            left: 50px;
+            top: 200px;
+        }
+        #layer2 {
+            background-color: green;
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            left: 75;
+            top: 225px;
+        }
+        #layer3 {
+            background-color: blue;
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            left: 100px;
+            top: 250px;
+        }
+    </style>
+    <title>04 Animations</title>
+</head>
+<body lang="en">
+    <h2>Basic Animations</h2>
+    <hr/><br/>
+    <p id="layer1">Layer 1 is Red color</p>
+    <p id="layer2">Layer 2 is Green color</p>
+    <p id="layer3">Layer 3 is Blue color</p>
+    <form name="animation">
+        <input type="button" name="ani1" value="Move Red towards right." onclick="moveRed();"/>
+        <input type="button" name="ani2" value="Move Green towards right." onclick="moveGreen();"/>
+        <input type="button" name="ani3" value="Move Blue towards right." onclick="moveBlue();"/>
+    </br>
+        <input type="button" name="ani4" value="Show Green layer." onclick="showGreen(true);"/>
+        <input type="button" name="ani5" value="Hide Green layer." onclick="showGreen(false);"/>
+    </form>
+</body>
+</head>
+</html>
